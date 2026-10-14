@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | Dream Decode</title>
+    <meta name="description" content="Help and support for Dream Decode, the private on-device dream journal.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: #FFFFFF;
+            color: #000000;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px;
+            border-bottom: 1px solid #EDEDED;
+        }
+        .topbar .brand {
+            font-family: "Space Mono", monospace;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #000000;
+            text-decoration: none;
+        }
+        .topbar .back {
+            font-family: "Space Mono", monospace;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #A3A3A3;
+            text-decoration: none;
+        }
+        .topbar .back:hover { color: #000000; }
+        .content {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 80px 24px 96px;
+        }
+        .label {
+            font-family: "Space Mono", monospace;
+            color: #A3A3A3;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0 0 16px;
+        }
+        h1 {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 52px;
+            margin: 0 0 12px;
+        }
+        .lede {
+            font-size: 21px;
+            line-height: 1.6;
+            color: #525252;
+            margin: 0 0 64px;
+        }
+        h2 {
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-weight: 500;
+            font-size: 24px;
+            letter-spacing: 1px;
+            border-left: 1px solid #000000;
+            padding-left: 16px;
+            margin: 56px 0 20px;
+        }
+        p, li {
+            font-size: 19px;
+            line-height: 1.6;
+            color: #525252;
+        }
+        p { margin: 0 0 16px; }
+        ul { margin: 0 0 16px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #000000; }
+        .contact {
+            border: 1px solid #000000;
+            padding: 32px;
+            margin-top: 64px;
+        }
+        .contact h2 { border: 0; padding: 0; margin: 0 0 12px; }
+        .contact p { margin: 0 0 8px; }
+        .mail {
+            font-family: "Space Mono", monospace;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            margin-top: 16px;
+            color: #000000;
+        }
+        footer {
+            border-top: 1px solid #EDEDED;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        footer .links {
+            font-family: "Space Mono", monospace;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        footer .links a { color: #A3A3A3; text-decoration: none; margin: 0 12px; }
+        footer .links a:hover { color: #000000; }
+        @media (max-width: 600px) {
+            h1 { font-size: 40px; }
+            .content { padding: 56px 20px 72px; }
+            .contact { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <span class="brand">Dream Decode</span>
+        <a class="back" href="../index.html">All legal pages</a>
+    </div>
+
+    <main class="content">
+        <p class="label">Support</p>
+        <h1>Getting help</h1>
+        <p class="lede">Dream Decode is a private journal with an interpreter that runs on your phone. Most questions come down to one thing: nothing you write leaves the device.</p>
+
+        <h2>Is my dream sent anywhere?</h2>
+        <p>No. Interpretation runs on a language model that your phone downloads once. After that, the app works with airplane mode on. Your dreams are not uploaded to our servers, and we have no copy of them.</p>
+
+        <h2>The model has not finished downloading</h2>
+        <p>The first reading needs a model file, fetched over the network once. It is anywhere from under a gigabyte to several, depending on which model you choose. Open the app on Wi-Fi and leave it in the foreground until the download completes. If it stalls, Settings &gt; Models lets you retry or pick a smaller model for an older device.</p>
+
+        <h2>Can I read my dreams without Dream Decode?</h2>
+        <p>Yes. The Reports tab has an export action for your whole journal, and you choose the format there. Your entries are not locked inside our format.</p>
+
+        <h2>How do I delete everything?</h2>
+        <p>There are two separate actions, and both are immediate:</p>
+        <ul>
+            <li><strong>Delete all data</strong> in Settings erases every dream, interpretation and setting stored on the device. It is refused while a reading is in progress.</li>
+            <li><strong>Delete account data</strong> in your profile removes your sign-in and the data held against the account, and cannot be undone.</li>
+        </ul>
+        <p>Neither action can be reversed, so export first if you want to keep your entries.</p>
+
+        <h2>What does PRO add?</h2>
+        <p>The free app interprets dreams on-device. PRO adds unlimited readings, the larger and more considered local model, advanced pattern reports, and encrypted cloud backup. If you restore a purchase on a new device, use Restore on the paywall; it looks up the original receipt with Apple rather than creating a second charge.</p>
+
+        <h2>Subscriptions and refunds</h2>
+        <p>Billing is handled by Apple through the App Store. To view, change, or cancel a subscription, open iPhone Settings &gt; your name &gt; Subscriptions. Refund requests go to Apple Support, not to us.</p>
+
+        <h2>A reading looked wrong or incomplete</h2>
+        <p>The interpreter offers lenses — symbolic, psychological, personal — and it is deliberately not authoritative. If a reading misses the mark, you can regenerate it, edit the dream text and re-read it, or just disagree; the app keeps your own version of what a dream meant as the record, not the model's.</p>
+
+        <div class="contact">
+            <h2>Still need help?</h2>
+            <p>Write to us and you will get a reply from the person who builds the app, usually within a day or two.</p>
+            <p>Please include your iPhone model and iOS version, and never send the text of a dream you would rather keep private — describing it is enough to debug.</p>
+            <a class="mail" href="mailto:dev.adityb@gmail.com">dev.adityb@gmail.com</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="links">
+            <a href="privacy.html">Privacy</a>
+            <a href="support.html">Support</a>
+        </div>
+    </footer>
+</body>
+</html>
