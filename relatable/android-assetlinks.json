@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.relatable.app",
+      "sha256_cert_fingerprints": [
+        "B0:84:F3:72:12:8E:34:AD:21:B5:5F:F3:40:87:37:EC:D2:0E:FA:9D:42:94:5B:CF:69:AB:D5:36:E8:39:BB:28",
+        "D8:67:4D:C5:FA:4E:22:D7:FB:AC:EA:62:87:8A:E2:6B:57:E8:13:9A:91:2E:D4:57:33:11:80:98:4D:E9:C9:FC",
+        "1A:BA:2D:0D:AD:1E:E4:8F:7F:24:F8:3D:0F:6E:BA:68:9A:C2:EA:6B:6E:24:56:E1:A5:30:FA:74:95:D3:D3:8B"
+      ]
+    }
+  }
+]
